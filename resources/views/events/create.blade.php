@@ -126,7 +126,8 @@
   {!! Form::close() !!}
 
 
-
+{{-- location picker
+source: http://thisinterestsme.com/google-maps-api-location-picker-example/ --}}
   <script type="text/javascript">
   //Set up some of our variables.
 var map; //Will contain map object.
@@ -183,7 +184,7 @@ function markerLocation(){
 
 
 //Load the map when the page has finished loading.
-google.maps.event.addDomListener(window, 'load', initMap);
+// google.maps.event.addDomListener(window, 'load', initMap);
   </script>
 
   <script async defer
