@@ -24,8 +24,8 @@ class CreateEventsTable extends Migration
             $table->string('fee_desc')->nullable();
             $table->dateTime('datetime');
             $table->string('location');
-            $table->float('latitude', 12, 7)->nullable();
-            $table->float('longitude', 12, 7)->nullable();
+            $table->float('latitude', 18, 15)->nullable();
+            $table->float('longitude', 18, 15)->nullable();
             $table->string('link')->nullable();
             $table->timestamps();
         });
