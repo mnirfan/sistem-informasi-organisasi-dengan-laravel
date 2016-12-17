@@ -1,4 +1,4 @@
-@extends('app')
+@extends('base')
 @section('title')
 {{$title}}
 
@@ -7,10 +7,7 @@
 
 @section('content')
 <h4> Selamat datang - {{Auth::user()->role}} : {{ Auth::user()->name }}!</h4>
-@endsection
 
-
-@section('custom-content')
 
 <div class="col-md-6">
   <div class="panel panel-default">
